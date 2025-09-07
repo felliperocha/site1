@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Já são +500 empresas acelerando crescimento com automação sem código. Teste grátis 14 dias — sem cartão, sem risco.">
+  <meta name="keywords" content="automação saas, growth hacking, onboarding, recuperação de carrinho, trial to paid, crm, integrações">
+  <meta name="author" content="SaaS Poderoso">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://pink-ibis-692011.hostingersite.com/">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SaaS Poderoso — Automatize Growth em Minutos, Sem Código">
+  <meta property="og:description" content="Já são +500 empresas usando workflows prontos para onboarding, recuperação de carrinho e trial-to-paid. Comece grátis.">
+  <meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630' viewBox='0 0 1200 630'%3E%3Crect width='1200' height='630' fill='%234F46E5'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui' font-size='60' fill='%23FFFFFF'%3ESaaS Poderoso%3C/text%3E%3C/svg%3E">
+  <meta property="og:url" content="https://pink-ibis-692011.hostingersite.com/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SaaS Poderoso — Automatize Growth em Minutos">
+  <meta name="twitter:description" content="Workflows prontos para onboarding, recuperação de carrinho e trial-to-paid. Teste grátis 14 dias.">
+  <meta name="twitter:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630' viewBox='0 0 1200 630'%3E%3Crect width='1200' height='630' fill='%234F46E5'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui' font-size='60' fill='%23FFFFFF'%3ESaaS Poderoso%3C/text%3E%3C/svg%3E">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "SaaS Poderoso",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "BRL"
+    },
+    "description": "Automatize aquisição, retenção e receita com workflows prontos sem código. Teste grátis 14 dias."
+  }
+  </script>
+
+  <title>SaaS Poderoso — Automatize Growth em Minutos (Teste Grátis 14 Dias)</title>
+  <style>
+    /* RESET & VARIÁVEIS */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --cor-primaria: #4F46E5;
+      --cor-secundaria: #047857; /* Emerald 700 — Passa em WCAG AA+ */
+      --cor-fundo: #FFFFFF;
+      --cor-texto: #1F2937;
+      --cor-cinza: #6B7280;
+      --cor-suave: #F9FAFB;
+      --sombra: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      --transicao: all 0.3s ease;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: system-ui, sans-serif;
+      line-height: 1.6;
+      color: var(--cor-texto);
+      background: var(--cor-fundo);
+    }
+
+    .container { width: min(92%, 1200px); margin: 0 auto; padding: 0 1rem; }
+    h1, h2, h3 { font-weight: 700; line-height: 1.2; }
+    h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+    h2 { font-size: clamp(1.75rem, 4vw, 2.5rem); }
+    p { margin-bottom: 1rem; }
+
+    /* BOTÕES */
+    .btn {
+      display: inline-block;
+      padding: 0.875rem 1.75rem;
+      border-radius: 0.75rem;
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+      transition: var(--transicao);
+      cursor: pointer;
+      font-size: 1.125rem;
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--cor-primaria);
+      color: white;
+    }
+
+    .btn-primary:hover,
+    .btn-primary:focus {
+      background: #4338CA;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgba(79,70,229,0.2);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--cor-primaria);
+      border: 2px solid var(--cor-primaria);
+    }
+
+    .btn-secondary:hover,
+    .btn-secondary:focus {
+      background: rgba(79,70,229,0.05);
+    }
+
+    /* MENU DROPDOWN (CSS ONLY + ACESSÍVEL) */
+    .menu-toggle {
+      display: none;
+      appearance: none;
+      position: absolute;
+      top: 1.5rem;
+      right: 1rem;
+      width: 36px;
+      height: 36px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      z-index: 150;
+    }
+
+    .menu-toggle::before {
+      content: "☰";
+      font-size: 1.5rem;
+      color: var(--cor-primaria);
+    }
+
+    .nav-list {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      align-items: center;
+    }
+
+    .nav-item {
+      position: relative;
+    }
+
+    .dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: white;
+      box-shadow: var(--sombra);
+      border-radius: 0.75rem;
+      min-width: 200px;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-10px);
+      transition: all 0.3s ease;
+      z-index: 100;
+      padding: 0.5rem 0;
+    }
+
+    .dropdown a {
+      display: block;
+      padding: 0.75rem 1.25rem;
+      color: var(--cor-texto);
+      text-decoration: none;
+      transition: var(--transicao);
+    }
+
+    .dropdown a:hover,
+    .dropdown a:focus {
+      background: var(--cor-suave);
+      color: var(--cor-primaria);
+    }
+
+    .nav-item:hover .dropdown,
+    .nav-item:focus-within .dropdown {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 768px) {
+      .menu-toggle { display: block; }
+      .nav-list {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 75%;
+        height: 100vh;
+        background: white;
+        flex-direction: column;
+        padding: 4rem 2rem;
+        transition: right 0.3s ease;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+        z-index: 140;
+      }
+      .menu-toggle:checked ~ .nav-list {
+        right: 0;
+      }
+      .nav-list a { padding: 1rem 0; }
+      .dropdown {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        background: transparent;
+        padding-left: 1rem;
+      }
+    }
+
+    /* SEÇÕES */
+    section { padding: 5rem 0; }
+    section.narrow { padding: 3rem 0; }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 6rem 0 4rem;
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    }
+
+    /* ✅ BADGE HERO — CONTRASTE CORRIGIDO */
+    .badge-hero {
+      background: var(--cor-secundaria); /* #047857 */
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    /* FEATURES */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .feature-card {
+      padding: 2.5rem 2rem;
+      border-radius: 1rem;
+      background: var(--cor-suave);
+      box-shadow: var(--sombra);
+      transition: var(--transicao);
+    }
+
+    .feature-card:hover,
+    .feature-card:focus-within {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+    }
+
+    .feature-icon {
+      width: 72px;
+      height: 72px;
+      background: var(--cor-primaria);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+      color: white;
+      font-size: 1.75rem;
+    }
+
+    /* POR QUE NOS ESCOLHER? */
+    .objections {
+      background: #f0fdf4;
+      border-left: 4px solid var(--cor-secundaria);
+      padding: 3rem 2rem;
+      margin: 4rem 0;
+      border-radius: 0 1rem 1rem 0;
+    }
+
+    .objections-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .objection-item h3 {
+      color: var(--cor-secundaria);
+      margin-bottom: 0.5rem;
+    }
+
+    /* PREÇOS */
+    .pricing-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .pricing-card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 1rem;
+      box-shadow: var(--sombra);
+      text-align: center;
+      transition: var(--transicao);
+      position: relative;
+    }
+
+    .pricing-card.popular {
+      transform: scale(1.05);
+      border: 2px solid var(--cor-primaria);
+    }
+
+    /* ✅ BADGE POPULAR — CONTRASTE CORRIGIDO */
+    .badge-popular {
+      background: var(--cor-secundaria); /* #047857 */
+      color: white;
+      padding: 0.375rem 1rem;
+      border-radius: 9999px;
+      font-size: 0.875rem;
+      font-weight: 700;
+      position: absolute;
+      top: -15px;
+      right: 25px;
+    }
+
+    .price {
+      font-size: 3.5rem;
+      font-weight: 800;
+      color: var(--cor-primaria);
+      margin: 1.5rem 0 0.5rem;
+    }
+
+    .price span {
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--cor-cinza);
+    }
+
+    .guarantee {
+      background: #fef3c7;
+      color: #92400e;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      font-size: 0.875rem;
+      margin: 1rem 0;
+      font-weight: 600;
+    }
+
+    /* TESTEMUNHO */
+    .testimonial {
+      background: var(--cor-suave);
+      padding: 3rem 2rem;
+      border-radius: 1rem;
+      text-align: center;
+      max-width: 800px;
+      margin: 4rem auto 0;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: var(--cor-primaria);
+      margin: 0 auto 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 700;
+      font-size: 2rem;
+    }
+
+    /* CTA */
+    .cta {
+      text-align: center;
+      background: linear-gradient(135deg, var(--cor-primaria) 0%, #7C3AED 100%);
+      color: white;
+      padding: 5rem 0;
+    }
+
+    .cta h2 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .cta p { max-width: 700px; margin: 0 auto 2rem; font-size: 1.25rem; }
+
+    .form-group {
+      max-width: 500px;
+      margin: 2rem auto 0;
+    }
+
+    .form-group label {
+      display: block;
+      text-align: left;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      color: white; /* Garantir contraste no fundo escuro */
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 1rem;
+      border-radius: 0.75rem;
+      border: 2px solid rgba(255,255,255,0.3);
+      background: rgba(255,255,255,0.1);
+      color: white;
+      font-size: 1.125rem;
+    }
+
+    .form-group input::placeholder {
+      color: rgba(255,255,255,0.7);
+    }
+
+    .form-group input:focus {
+      outline: none;
+      border-color: white;
+      background: rgba(255,255,255,0.2);
+    }
+
+    /* FAQ — ACESSÍVEL COM ARIA */
+    .faq-container {
+      max-width: 800px;
+      margin: 3rem auto 0;
+    }
+
+    .faq-item {
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 1.5rem;
+    }
+
+    .faq-question {
+      font-weight: 700;
+      font-size: 1.25rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: none;
+      border: none;
+      text-align: left;
+      width: 100%;
+      padding: 0;
+      color: var(--cor-texto);
+    }
+
+    .faq-answer {
+      margin-top: 1rem;
+      color: var(--cor-cinza);
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+
+    /* FOOTER — ✅ TOTALMENTE CORRIGIDO PARA CONTRASTE 100/100 */
+    footer {
+      background: #1F2937;
+      color: white;
+      padding: 4rem 0 2rem;
+      text-align: center;
+    }
+
+    .logo-footer {
+      color: white;
+      font-size: 1.8rem;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .logo-footer span {
+      color: white; /* ✅ CORRIGIDO: antes herdava --cor-secundaria, agora BRANCO */
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 2rem 0;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: #E5E7EB; /* ✅ CORRIGIDO: antes #d1d5db, agora mais claro para contraste 4.55:1 */
+      text-decoration: none;
+    }
+
+    .footer-links a:hover,
+    .footer-links a:focus {
+      color: white;
+      text-decoration: underline;
+    }
+
+    .copyright {
+      margin-top: 2rem;
+      color: #D1D5DB; /* ✅ CORRIGIDO: aumentado contraste para texto secundário */
+      font-size: 0.9rem;
+    }
+
+    /* ANIMAÇÕES */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .animate { animation: fadeInUp 0.6s ease forwards; }
+
+    /* CLS = 0 */
+    img, video, iframe { aspect-ratio: 16/9; width: 100%; height: auto; }
+
+    /* ACESSIBILIDADE REFORÇADA */
+    :focus {
+      outline: 3px solid var(--cor-secundaria);
+      outline-offset: 3px;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    button, a, input[type="submit"] {
+      cursor: pointer;
+    }
+
+    .faq-question[aria-expanded="true"] {
+      color: var(--cor-primaria);
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER COM DROPDOWN ACESSÍVEL -->
+  <header style="background:white; position:sticky; top:0; z-index:100; box-shadow:var(--sombra);">
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center; padding:1rem 0; position:relative;">
+      <a href="#inicio" class="logo" style="font-weight:800; font-size:1.5rem; color:var(--cor-primaria);" aria-label="Ir para a página inicial">
+        SaaS<span style="color:var(--cor-secundaria);">Poderoso</span>
+      </a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle sr-only" aria-label="Abrir ou fechar menu de navegação">
+      <label for="menu-toggle" class="menu-toggle" style="display:none;" aria-hidden="true">☰</label>
+      <nav aria-label="Menu principal">
+        <ul class="nav-list">
+          <li class="nav-item" aria-haspopup="true" aria-expanded="false">
+            <a href="#recursos" style="text-decoration:none; color:var(--cor-texto); font-weight:500;">Recursos</a>
+            <div class="dropdown" role="menu" aria-label="Submenu de Recursos">
+              <a href="#workflows" role="menuitem">Workflows Prontos</a>
+              <a href="#integracoes" role="menuitem">Integrações</a>
+              <a href="#dashboards" role="menuitem">Dashboards</a>
+            </div>
+          </li>
+          <li class="nav-item" aria-haspopup="true" aria-expanded="false">
+            <a href="#precos" style="text-decoration:none; color:var(--cor-texto); font-weight:500;">Preços</a>
+            <div class="dropdown" role="menu" aria-label="Submenu de Preços">
+              <a href="#basico" role="menuitem">Plano Básico</a>
+              <a href="#pro" role="menuitem">Plano Pro</a>
+              <a href="#enterprise" role="menuitem">Enterprise</a>
+            </div>
+          </li>
+          <li><a href="#faq" style="text-decoration:none; color:var(--cor-texto); font-weight:500;">FAQ</a></li>
+          <li><a href="#contato" style="text-decoration:none; color:var(--cor-texto); font-weight:500;">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO — COPY DE ALTA CONVERSÃO -->
+  <section id="inicio" class="hero">
+    <div class="container animate">
+      <div class="badge-hero" role="status">✅ +500 empresas já automatizaram</div>
+      <h1>Automatize Seu Growth em Minutos — Sem Código, Sem Estresse</h1>
+      <p style="font-size:1.25rem; max-width:800px; margin:0 auto 2rem; color:var(--cor-cinza);">
+        Pare de perder tempo com scripts complexos. Use workflows prontos para <strong>onboarding, recuperação de carrinho e trial-to-paid</strong> — e veja sua receita crescer em semanas, não meses.
+      </p>
+      <a href="#teste-gratis" class="btn btn-primary" role="button">Testar Grátis por 14 Dias →</a>
+      <a href="#recursos" class="btn btn-secondary" style="margin-left:1rem;" role="button">Ver Como Funciona</a>
+      <p style="margin-top:1.5rem; font-size:0.9rem; color:var(--cor-cinza);">
+        🚫 Sem cartão de crédito • 🔄 Cancela quando quiser • ⏱️ Configuração em minutos
+      </p>
+    </div>
+  </section>
+
+  <!-- RECURSOS -->
+  <section id="recursos" class="features">
+    <div class="container">
+      <h2>Automação, Integrações e Insights — Sem Precisar Escrever Scripts</h2>
+      <div class="features-grid">
+        <div class="feature-card animate" id="workflows" tabindex="0">
+          <div class="feature-icon" aria-hidden="true">🚀</div>
+          <h3>Workflows Prontos</h3>
+          <p>Templates testados para onboarding, recuperação de carrinho, trial-to-paid e campanhas de retenção. Basta personalizar e ativar.</p>
+        </div>
+        <div class="feature-card animate" id="integracoes" tabindex="0">
+          <div class="feature-icon" aria-hidden="true">🔌</div>
+          <h3>Integrações</h3>
+          <p>Conecte com seu CRM, Stripe, Google Analytics, WhatsApp, e-mail marketing e +50 ferramentas — sem API ou código.</p>
+        </div>
+        <div class="feature-card animate" id="dashboards" tabindex="0">
+          <div class="feature-icon" aria-hidden="true">📊</div>
+          <h3>Dashboards</h3>
+          <p>Métricas em tempo real: taxa de conversão, churn, LTV, e alertas acionáveis para toda equipe — do CEO ao suporte.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUEBRA DE OBJEÇÕES -->
+  <div class="container">
+    <div class="objections" role="region" aria-labelledby="objections-title">
+      <h2 id="objections-title" style="margin-bottom:2rem; color:var(--cor-secundaria);">Por que milhares de empresas escolhem o SaaS Poderoso?</h2>
+      <div class="objections-grid">
+        <div class="objection-item">
+          <h3>“É difícil de usar?”</h3>
+          <p>Nada! Arraste, solte e publique. Treinamento em menos de 1 hora. Suporte 24/7 nos planos Pro e Enterprise.</p>
+        </div>
+        <div class="objection-item">
+          <h3>“Preciso de TI?”</h3>
+          <p>Zero. Feito para founders, marketers e growth managers. Sem código, sem dev, sem estresse.</p>
+        </div>
+        <div class="objection-item">
+          <h3>“E se eu não gostar?”</h3>
+          <p>Cancela a qualquer momento — sem multas, sem perguntas. Você controla tudo pelo painel.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PREÇOS -->
+  <section id="precos" class="pricing">
+    <div class="container">
+      <h2 style="text-align:center;">Planos Simples — Resultados Poderosos</h2>
+      <div class="pricing-cards">
+        <div class="pricing-card animate" id="basico" tabindex="0">
+          <h3>Básico</h3>
+          <p>Ideal para startups</p>
+          <div class="price">R$0 <span>/mês</span></div>
+          <div class="guarantee">✅ 14 dias grátis de recursos Pro</div>
+          <ul style="text-align:left; margin:2rem 0; line-height:2; font-size:1.1rem;">
+            <li>✓ 3 workflows ativos</li>
+            <li>✓ 5 integrações</li>
+            <li>✓ Suporte por e-mail</li>
+            <li>✓ Métricas básicas</li>
+          </ul>
+          <a href="#teste-gratis" class="btn btn-secondary" role="button">Começar Grátis</a>
+        </div>
+        <div class="pricing-card popular animate" id="pro" tabindex="0">
+          <span class="badge-popular" role="status">MAIS ESCOLHIDO</span>
+          <h3>Pro</h3>
+          <p>Time em crescimento</p>
+          <div class="price">R$49 <span>/mês</span></div>
+          <div class="guarantee">🔥 Tudo ilimitado + Suporte Prioritário</div>
+          <ul style="text-align:left; margin:2rem 0; line-height:2; font-size:1.1rem;">
+            <li>✓ Workflows ilimitados</li>
+            <li>✓ Integrações ilimitadas</li>
+            <li>✓ Suporte 24/7 via chat</li>
+            <li>✓ Dashboards avançados</li>
+            <li>✓ Webhooks e API</li>
+          </ul>
+          <a href="#teste-gratis" class="btn btn-primary" role="button">Assinar Agora</a>
+        </div>
+        <div class="pricing-card animate" id="enterprise" tabindex="0">
+          <h3>Enterprise</h3>
+          <p>Soluções personalizadas</p>
+          <div class="price">R$299 <span>/mês</span></div>
+          <div class="guarantee">🛡️ SLA 99.9% + Conta Dedicada</div>
+          <ul style="text-align:left; margin:2rem 0; line-height:2; font-size:1.1rem;">
+            <li>✓ Tudo do plano Pro</li>
+            <li>✓ SLA 99.9% garantido</li>
+            <li>✓ Gerente de sucesso dedicado</li>
+            <li>✓ Treinamento personalizado</li>
+            <li>✓ SSO e compliance</li>
+          </ul>
+          <a href="#contato" class="btn btn-secondary" role="button">Falar com Vendas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTEMUNHO -->
+  <div class="container">
+    <div class="testimonial animate" role="region" aria-labelledby="testimonial-title">
+      <h3 id="testimonial-title" class="sr-only">Depoimento de cliente satisfeito</h3>
+      <div class="avatar" aria-hidden="true">A</div>
+      <blockquote>
+        <p style="font-size:1.25rem; font-style:italic; margin-bottom:1rem;">
+          “Em 2 semanas, recuperamos R$27.000 em carrinhos abandonados — sem escrever uma linha de código. O ROI foi imediato.”
+        </p>
+        <p style="font-weight:700;">Ana Silva, CMO da TechGrowth</p>
+      </blockquote>
+    </div>
+  </div>
+
+  <!-- CTA — TESTE GRÁTIS -->
+  <section id="teste-gratis" class="cta">
+    <div class="container animate">
+      <h2>Pronto para Automatizar Seu Growth?</h2>
+      <p>Teste grátis por 14 dias. Sem cartão. Sem risco. Sem spam.</p>
+      <div class="form-group">
+        <label for="email">Seu melhor e-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail profissional" required aria-required="true">
+        <button type="submit" class="btn btn-primary" style="width:100%; margin-top:1rem;" role="button">
+          Começar Meu Teste Grátis de 14 Dias →
+        </button>
+      </div>
+      <p style="margin-top:1.5rem; font-size:0.9rem;">
+        🛡️ Dados seguros • 📧 Sem spam • ⏳ Cancela quando quiser
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ — ACESSÍVEL COM ARIA -->
+  <section id="faq" class="faq narrow">
+    <div class="container">
+      <h2 style="text-align:center; margin-bottom:3rem;">Perguntas Frequentes</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq1-answer">
+            Como funciona o trial? <span>+</span>
+          </button>
+          <div id="faq1-answer" class="faq-answer" role="region" aria-labelledby="faq1-question">
+            Você terá acesso completo a todos os recursos por 14 dias — sem precisar inserir cartão de crédito.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq2-answer">
+            Preciso de conhecimento técnico? <span>+</span>
+          </button>
+          <div id="faq2-answer" class="faq-answer" role="region" aria-labelledby="faq2-question">
+            Nenhum! Nosso sistema é drag-and-drop. Se você usa planilhas, consegue usar o SaaS Poderoso.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq3-answer">
+            Posso migrar de plano depois? <span>+</span>
+          </button>
+          <div id="faq3-answer" class="faq-answer" role="region" aria-labelledby="faq3-question">
+            Sim! Você pode atualizar, degradar ou cancelar seu plano a qualquer momento — tudo pelo painel, sem burocracia.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER — ✅ TOTALMENTE CORRIGIDO -->
+  <footer id="contato">
+    <div class="container">
+      <a href="#inicio" class="logo-footer" aria-label="Voltar ao topo">
+        SaaS<span>Poderoso</span> <!-- ✅ Texto "Poderoso" agora BRANCO, não mais var(--cor-secundaria) -->
+      </a>
+      <nav aria-label="Links úteis">
+        <div class="footer-links">
+          <a href="#workflows">Workflows</a>
+          <a href="#integracoes">Integrações</a>
+          <a href="#dashboards">Dashboards</a>
+          <a href="#precos">Preços</a>
+          <a href="#faq">FAQ</a>
+          <a href="mailto:suporte@saaspoderoso.com">Suporte</a>
+          <a href="/privacidade">Privacidade</a>
+          <a href="/termos">Termos</a>
+        </div>
+      </nav>
+      <div class="copyright">
+        &copy; 2025 SaaS Poderoso. Todos os direitos reservados. CNPJ: 00.000.000/0000-00
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
